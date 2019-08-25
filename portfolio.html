@@ -1,0 +1,90 @@
+<!--
+    @author: Caren Briones <carenpbriones@gmail.com>
+    Responsive Portfolio page with placeholder images.
+
+    The page changes layouts dependent on screen width with the use of bootstrap;
+    main content takes up whole page on xs screens, while on sm and larger screens,
+    there are margins on either side of the main content.
+
+    August 24, 2019
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Caren Briones | Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand mr-sm-auto ml-sm-0 mx-auto px-3 d-flex justify-content-sm-start text-center px-2"
+            href="#" style="background-color: #4aaaa5; color: #ffffff;">Caren Briones</a>
+        <ul class="nav mx-auto px-5 px-sm-0 mx-sm-0 text-sm-right d-flex justify-content-sm-end text-center">
+            <li class="nav-item" style="flex-flow: row nowrap; display: inline-flex;">
+                <a class="nav-link" href="index.html" style="color: #777777;">About</a>
+            </li>
+            <li class="nav-item" style="flex-flow: row nowrap; display: inline-flex;">
+                <a class="nav-link" href="portfolio.html" style="color: #777777;">Portfolio</a>
+            </li>
+            <li class="nav-item" style="flex-flow: row nowrap; display: inline-flex;">
+                <a class="nav-link" href="contact.html" style="color: #777777;">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main role="main" class="flex-shrink-0">
+        <div class="container-fluid">
+            <div class="row mx-sm-5 mx-auto my-3">
+                <h1 style="color: #4aaaa5;">Portfolio</h1>
+                <div class="row">
+                    <div class="card m-2">
+                        <img src="http://lorempixel.com/280/190/technics/1" class="card-img-top"
+                            alt="technics stock image 1">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">Hangman</p>
+                        </div>
+                    </div>
+                    <div class="card m-2">
+                        <img src="http://lorempixel.com/280/190/technics/2" class="card-img-top"
+                            alt="technics stock image 2">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">RPG Game</p>
+                        </div>
+                    </div>
+                    <div class="card m-2">
+                        <img src="http://lorempixel.com/280/190/technics/3" class="card-img-top"
+                            alt="technics stock image 3">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">Trivia Game</p>
+                        </div>
+                    </div>
+                    <div class="card m-2">
+                        <img src="http://lorempixel.com/280/190/technics/4" class="card-img-top"
+                            alt="technics stock image 4">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">Rutgers Info Widget</p>
+                        </div>
+                    </div>
+                    <div class="card m-2">
+                        <img src="http://lorempixel.com/280/190/technics/5" class="card-img-top"
+                            alt="technics stock image 5">
+                        <div class="card-body">
+                            <p class="card-text" style="text-align: center;">Rock Paper Scissors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- TODO: fix sticky footer -->
+    <footer class="footer mt-auto py-3" style="text-align: center; background-color:#666666; color: #ffffff">
+        <div class="container">
+            <p>Copyright ©</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
