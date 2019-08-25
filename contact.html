@@ -1,0 +1,66 @@
+<!--
+Using Bootstrap, recreate your portfolio site with the following items:
+
+A navbar
+
+A responsive layout (remember the grid, rows and columns are your friends)
+
+eg. On an xs screen, content should take up the entire screen. On sm and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
+
+
+Responsive images-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Caren Briones | Contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand mr-sm-auto ml-sm-0 mx-auto px-3 d-flex justify-content-sm-start text-center px-2"
+            href="#" style="background-color: #4aaaa5; color: #ffffff;">Caren Briones</a>
+        <ul class="nav mx-auto px-5 px-sm-0 mx-sm-0 text-sm-right d-flex justify-content-sm-end text-center">
+            <li class="nav-item" style="flex-flow: row nowrap; display: inline-flex;">
+                <a class="nav-link" href="index.html" style="color: #777777;">About</a>
+            </li>
+            <li class="nav-item" style="flex-flow: row nowrap; display: inline-flex;">
+                <a class="nav-link" href="portfolio.html" style="color: #777777;">Portfolio</a>
+            </li>
+            <li class="nav-item" style="flex-flow: row nowrap; display: inline-flex;">
+                <a class="nav-link" href="contact.html" style="color: #777777;">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <div class="row mx-sm-5 px-sm-5 mx-1 my-3">
+            <form style="width: 100%;">
+                <div class="form-group">
+                    <label for="contactName">Name</label>
+                    <input type="text" class="form-control" id="contactName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail">Email address</label>
+                    <input type="email" class="form-control" id="contactEmail" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="contactMessage">Message</label>
+                    <textarea class="form-control" id="contactMessage" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn" style="background-color: #4aaaa5; color: #ffffff;">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- TODO: fix sticky footer -->
+    <footer class="footer mt-auto py-3" style="text-align: center; background-color:#666666; color: #ffffff">
+        <div class="container">
+            <p>Copyright ©</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
